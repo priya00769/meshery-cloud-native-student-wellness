@@ -1,6 +1,6 @@
 # Cloud-Native Student Wellness Platform
 
-A cloud-native application architecture designed using the Meshery visual infrastructure design platform.
+A cloud-native application architecture designed using Meshery and Kubernetes concepts.
 
 ## Overview
 
@@ -8,15 +8,7 @@ This project demonstrates a Kubernetes-oriented architecture for a student welln
 
 The design was created using Meshery's visual design and configuration-management capabilities.
 
-## Architecture
-
-The design contains Kubernetes-oriented components including:
-
-- Deployment
-- Service
-- ConfigMap
-
-### Architecture Flow
+## Architecture Flow
 
 ```text
 User
@@ -35,3 +27,43 @@ Backend Application
   |
   v
 Application Configuration
+```
+
+## Design Preview
+
+![Meshery Cloud-Native Design](meshery-design.png)
+
+## Architecture
+
+The design contains the following Kubernetes-oriented components:
+
+- Deployment
+- Service
+- ConfigMap
+
+## Technology
+
+- Meshery
+- Kubernetes
+- Cloud-Native Architecture
+- YAML
+
+## Meshery Achievement
+
+🏅 **Meshery Design Pioneer**
+
+Created a cloud-native application architecture using Meshery's visual design and configuration-management capabilities.
+
+## Purpose
+
+This project was created to explore:
+
+- Cloud-native architecture
+- Kubernetes concepts
+- Infrastructure design
+- Visual infrastructure modeling
+- Configuration management
+
+## Author
+
+**Guru Priya Kanuru**l design and configuration-management capabilities.
