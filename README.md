@@ -31,7 +31,8 @@ Application Configuration
 
 ## Design Preview
 
-![Meshery Cloud-Native Design](meshery-design.png)
+<img width="1837" height="912" alt="meshery-design png" src="https://github.com/user-attachments/assets/47947a66-86d2-4a46-94a3-40e752ff9a96" />
+
 
 ## Architecture
 
