@@ -30,7 +30,7 @@ components:
       isNamespaced: false
       published: false
     configuration:
-        metadata:
+      metadata:
         namespace: default
       spec:
         replicas: 1
