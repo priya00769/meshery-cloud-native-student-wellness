@@ -30,30 +30,30 @@ components:
       isNamespaced: false
       published: false
     configuration:
-  metadata:
-    namespace: default
-  spec:
-    replicas: 1
-    selector:
-      matchLabels:
-        app: wellness-app
-    template:
-      metadata:
-        labels:
-          app: wellness-app
+        metadata:
+        namespace: default
       spec:
-        containers:
-          - name: wellness-app
-            image: nginx:1.27
-            ports:
-              - containerPort: 80
-            resources:
-              requests:
-                cpu: 100m
-                memory: 64Mi
-              limits:
-                cpu: 250m
-                memory: 128Mi
+        replicas: 1
+        selector:
+          matchLabels:
+            app: wellness-app
+        template:
+          metadata:
+            labels:
+              app: wellness-app
+          spec:
+            containers:
+              - name: wellness-app
+                image: nginx:1.27
+                ports:
+                  - containerPort: 80
+                resources:
+                  requests:
+                    cpu: 100m
+                    memory: 64Mi
+                  limits:
+                    cpu: 250m
+                    memory: 128Mi
     component:
       version: apps/v1
       kind: Deployment
@@ -87,16 +87,16 @@ components:
       isNamespaced: false
       published: false
     configuration:
-  metadata:
-    namespace: default
-  spec:
-    type: ClusterIP
-    selector:
-      app: wellness-app
-    ports:
-      - port: 80
-        targetPort: 80
-        protocol: TCP
+      metadata:
+        namespace: default
+      spec:
+        type: ClusterIP
+        selector:
+          app: wellness-app
+        ports:
+          - port: 80
+            targetPort: 80
+            protocol: TCP
     component:
       version: v1
       kind: Service
@@ -129,7 +129,7 @@ components:
       isAnnotation: false
       isNamespaced: false
       published: false
-    configuration:
+configuration:
   metadata:
     namespace: default
   data:
