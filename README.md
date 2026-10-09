@@ -31,7 +31,7 @@ Application Configuration
 
 ## Design Preview
 
-<img width="1837" height="912" alt="meshery-design png" src="https://github.com/user-attachments/assets/47947a66-86d2-4a46-94a3-40e752ff9a96" />
+<img width="1836" height="925" alt="Screenshot 2026-10-09 213515" src="https://github.com/user-attachments/assets/e3983f37-28d9-4028-99b6-e39e46ee0658" />
 
 
 ## Architecture
