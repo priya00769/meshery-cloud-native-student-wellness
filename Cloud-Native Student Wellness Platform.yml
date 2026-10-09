@@ -6,8 +6,8 @@ components:
   - id: b1f228d4-f09d-422e-ac56-6a50203ff3fb
     schemaVersion: components.meshery.io/v1beta2
     version: v1.0.0
-    displayName: <Name of the Component>
-    description: ""
+    displayName: Wellness App Deployment
+    description: "Runs the student wellness application."
     format: ""
     model: null
     modelReference:
@@ -42,8 +42,8 @@ components:
   - id: b2594fa0-6361-4e6b-8d01-3d98edccde36
     schemaVersion: components.meshery.io/v1beta2
     version: v1.0.0
-    displayName: <Name of the Component>
-    description: ""
+    displayName: Wellness App Service
+    description: "Provides internal network access to the wellness application."
     format: ""
     model: null
     modelReference:
@@ -77,8 +77,8 @@ components:
   - id: beef333f-d642-4b37-be1e-f25ef98cf18d
     schemaVersion: components.meshery.io/v1beta2
     version: v1.0.0
-    displayName: <Name of the Component>
-    description: ""
+    displayName: Wellness App Configuration
+    description: "Stores non-sensitive configuration for the wellness application."
     format: ""
     model: null
     modelReference:
