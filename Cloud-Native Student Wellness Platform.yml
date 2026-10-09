@@ -89,6 +89,14 @@ components:
     configuration:
       metadata:
         namespace: default
+      spec:
+        type: ClusterIP
+        selector:
+           app: wellness-app
+      ports:
+        - port: 80
+          targetPort: 80
+          protocol: TCP
     component:
       version: v1
       kind: Service
