@@ -32,7 +32,28 @@ components:
     configuration:
       metadata:
         namespace: default
-      spec: {}
+      spec:
+        replicas: 1
+      selector:
+        matchLabels:
+          app: wellness-app
+      template:
+        metadata:
+          labels:
+            app: wellness-app
+        spec:
+          containers:
+            - name: wellness-app
+              image: nginx:1.27
+              ports:
+                - containerPort: 80
+              resources:
+                requests:
+                  cpu: 100m
+                  memory: 64Mi
+                limits:
+                  cpu: 250m
+                  memory: 128Mi
     component:
       version: apps/v1
       kind: Deployment
